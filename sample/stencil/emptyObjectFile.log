@@ -1,0 +1,364 @@
+
+
+===== First one
+
+
+
+Compiled a complete binary and ran it. Repeating. Iteration: 11
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 4
+[1 of 3] Compiling Average          ( Average.hs, build/Average.o )
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 9078046 μs
+>>> # Leftover running processes "ghc": 4
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 5
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 3351239 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 2507816 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 6142936 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 8435300 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 8794613 μs
+>>> # Leftover running processes "ghc": 3
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 5
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 8754538 μs
+>>> # Leftover running processes "ghc": 3
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 4
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 7649506 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 74331 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 2163701 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 6926677 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 2226326 μs
+>>> # Leftover running processes "ghc": 4
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 5
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 7348675 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 8775175 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 2184189 μs
+>>> # Leftover running processes "ghc": 3
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 4
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 677084 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 3349961 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 4234256 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 4475693 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 5741970 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 5561378 μs
+>>> # Leftover running processes "ghc": 4
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 5
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 8515373 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 375521 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 3148462 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 9397267 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 5660757 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 657053 μs
+>>> # Leftover running processes "ghc": 4
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 5
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 5560210 μs
+>>> # Leftover running processes "ghc": 3
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 4
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 4113370 μs
+>>> # Leftover running processes "ghc": 4
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 3771201 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 4996529 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+Linking stencil ...
+/usr/bin/ld.gold: error: build/Sobel.o: file is empty
+build/Main.o:Main_main1_info: error: undefined reference to 'Sobel_bar1_info'
+build/Main.o(.data.rel.ro+0x6d8): error: undefined reference to 'Sobel_bar1_closure'
+collect2: error: ld returned 1 exit status
+`gcc' failed in phase `Linker'. (Exit code: 1)
+>>> # Executed process exited with: ExitFailure 1
+>>> # Expected to exit with a signal: -9, but died with: 1
+>>> # Terminated the build after: 9020554 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+Linking stencil ...
+/usr/bin/ld.gold: error: build/Sobel.o: file is empty
+build/Main.o:Main_main1_info: error: undefined reference to 'Sobel_bar1_info'
+build/Main.o(.data.rel.ro+0x6d8): error: undefined reference to 'Sobel_bar1_closure'
+collect2: error: ld returned 1 exit status
+`gcc' failed in phase `Linker'. (Exit code: 1)
+>>> # Executed process exited with: ExitFailure 1
+>>> # Expected to exit with a signal: -9, but died with: 1
+>>> # Terminated the build after: 935265 μs
+>>> # Leftover running processes "ghc": 6
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 7
+
+
+
+==== Another run
+
+
+Compiled a complete binary and ran it. Repeating. Iteration: 32
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 3
+[1 of 3] Compiling Average          ( Average.hs, build/Average.o )
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 899940 μs
+>>> # Leftover running processes "ghc": 2
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 3
+[2 of 3] Compiling Sobel            ( Sobel.hs, build/Sobel.o )
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 9359596 μs
+>>> # Leftover running processes "ghc": 2
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 3
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 737819 μs
+>>> # Leftover running processes "ghc": 2
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 3
+[3 of 3] Compiling Main             ( stencil.hs, build/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 7469975 μs
+>>> # Leftover running processes "ghc": 2
+>>> ghc stencil.hs Average.hs Sobel.hs -O2 -threaded -odir build -hidir build -tmpdir tmp -keep-tmp-files
+>>> # Currently running processes "ghc": 3
+Linking stencil ...
+/usr/bin/ld.gold: error: build/Main.o: file is empty
+tmp/ghc2744_0/ghc_2.o:ghc_1.c:function main: error: undefined reference to 'ZCMain_main_closure'
+collect2: error: ld returned 1 exit status
+`gcc' failed in phase `Linker'. (Exit code: 1)
+>>> # Executed process exited with: ExitFailure 1
+>>> # Expected to exit with a signal: -9, but died with: 1
+>>> # Terminated the build after: 935230 μs
+>>> # Leftover running processes "ghc": 2
+
+
+
+
+===== With stack
+
+
+>>> stack build
+>>> # Currently running processes "stack": 44
+Building all executables for `stack-stencil' once. After a successful build of all of them, only specified executables will be rebuilt.
+stack-stencil-0.1.0.0: configure (lib + exe)
+Configuring stack-stencil-0.1.0.0...
+stack-stencil-0.1.0.0: build (lib + exe)
+Preprocessing library for stack-stencil-0.1.0.0..
+Building library for stack-stencil-0.1.0.0..
+[1 of 3] Compiling Average          ( src/Average.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Average.o )
+[2 of 3] Compiling Paths_stack_stencil ( .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/autogen/Paths_stack_stencil.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Paths_stack_stencil.o )
+[3 of 3] Compiling Sobel            ( src/Sobel.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 7290320 μs
+>>> # Leftover running processes "stack": 43
+>>> stack build
+>>> # Currently running processes "stack": 44
+Building all executables for `stack-stencil' once. After a successful build of all of them, only specified executables will be rebuilt.
+stack-stencil-0.1.0.0: build (lib + exe)
+Preprocessing library for stack-stencil-0.1.0.0..
+Building library for stack-stencil-0.1.0.0..
+[3 of 3] Compiling Sobel            ( src/Sobel.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 2947967 μs
+>>> # Leftover running processes "stack": 43
+>>> stack build
+>>> # Currently running processes "stack": 44
+Building all executables for `stack-stencil' once. After a successful build of all of them, only specified executables will be rebuilt.
+stack-stencil-0.1.0.0: build (lib + exe)
+Preprocessing library for stack-stencil-0.1.0.0..
+Building library for stack-stencil-0.1.0.0..
+[3 of 3] Compiling Sobel            ( src/Sobel.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Sobel.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 7550439 μs
+>>> # Leftover running processes "stack": 43
+>>> stack build
+>>> # Currently running processes "stack": 44
+Building all executables for `stack-stencil' once. After a successful build of all of them, only specified executables will be rebuilt.
+stack-stencil-0.1.0.0: build (lib + exe)
+Preprocessing library for stack-stencil-0.1.0.0..
+Building library for stack-stencil-0.1.0.0..
+[3 of 3] Compiling Sobel            ( src/Sobel.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Sobel.o )
+Preprocessing executable 'stencil' for stack-stencil-0.1.0.0..
+Building executable 'stencil' for stack-stencil-0.1.0.0..
+[1 of 2] Compiling Main             ( app/stencil.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/stencil/stencil-tmp/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 9380895 μs
+>>> # Leftover running processes "stack": 43
+>>> stack build
+>>> # Currently running processes "stack": 44
+Building all executables for `stack-stencil' once. After a successful build of all of them, only specified executables will be rebuilt.
+stack-stencil-0.1.0.0: build (lib + exe)
+Preprocessing library for stack-stencil-0.1.0.0..
+Building library for stack-stencil-0.1.0.0..
+Preprocessing executable 'stencil' for stack-stencil-0.1.0.0..
+Building executable 'stencil' for stack-stencil-0.1.0.0..
+[1 of 2] Compiling Main             ( app/stencil.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/stencil/stencil-tmp/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 5883038 μs
+>>> # Leftover running processes "stack": 43
+>>> stack build
+>>> # Currently running processes "stack": 44
+Building all executables for `stack-stencil' once. After a successful build of all of them, only specified executables will be rebuilt.
+stack-stencil-0.1.0.0: build (lib + exe)
+Preprocessing library for stack-stencil-0.1.0.0..
+Building library for stack-stencil-0.1.0.0..
+Preprocessing executable 'stencil' for stack-stencil-0.1.0.0..
+Building executable 'stencil' for stack-stencil-0.1.0.0..
+[1 of 2] Compiling Main             ( app/stencil.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/stencil/stencil-tmp/Main.o )
+>>> # Executed process exited with: ExitFailure (-9)
+>>> # Terminated the build after: 8334240 μs
+>>> # Leftover running processes "stack": 43
+>>> stack build
+>>> # Currently running processes "stack": 44
+Building all executables for `stack-stencil' once. After a successful build of all of them, only specified executables will be rebuilt.
+stack-stencil-0.1.0.0: build (lib + exe)
+Preprocessing library for stack-stencil-0.1.0.0..
+Building library for stack-stencil-0.1.0.0..
+Preprocessing executable 'stencil' for stack-stencil-0.1.0.0..
+Building executable 'stencil' for stack-stencil-0.1.0.0..
+[2 of 2] Compiling Paths_stack_stencil ( .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/stencil/autogen/Paths_stack_stencil.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/stencil/stencil-tmp/Paths_stack_stencil.o )
+Linking .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/stencil/stencil ...
+/usr/bin/ld.gold: error: .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/stencil/stencil-tmp/Main.o: file is empty
+/tmp/ghc10148_0/ghc_4.o:ghc_3.c:function main: error: undefined reference to 'ZCMain_main_closure'
+collect2: error: ld returned 1 exit status
+`gcc' failed in phase `Linker'. (Exit code: 1)
+
+--  While building package stack-stencil-0.1.0.0 using:
+      /home/lehins/.stack/setup-exe-cache/x86_64-linux/Cabal-simple_mPHDZzAJ_2.2.0.1_ghc-8.4.4 --builddir=.stack-work/dist/x86_64-linux/Cabal-2.2.0.1 build lib:stack-stencil exe:stencil --ghc-options " -ddump-hi -ddump-to-file -fdiagnostics-color=always"
+    Process exited with code: ExitFailure 1
+>>> # Executed process exited with: ExitFailure 1
+>>> # Expected to exit with a signal: -9, but died with: 1
+>>> # Terminated the build after: 1819001 μs
+>>> # Leftover running processes "stack": 43
