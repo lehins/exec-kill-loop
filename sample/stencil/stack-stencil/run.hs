@@ -16,12 +16,15 @@ import           RIO.Process
 
 main :: IO ()
 main = do
-  let maxDelay = 10
+  let maxDelay = 10 -- tune this in order to increase kill interval
       signals = P.cycle [2, 15, 9] :: [Int]
   let cmd = "stack build"
   let loop (sig:ss) n = do
         proc "stack" ["clean", "--full"] runProcess_
-        proc "../../../exec-kill-loop" [cmd, "-s", show sig, "--max-delay", show maxDelay] runProcess_
+        proc
+          "../../../exec-kill-loop.hs"
+          [cmd, "-s", show sig, "--max-delay", show maxDelay]
+          runProcess_
         -- finish if it ran successfully but there is no output file
         exitCode <- proc "stack" ["exec", "--", "stencil"] runProcess
         case exitCode of
