@@ -30,4 +30,6 @@ main = do
               "Compiled a complete binary and ran it. Repeating. Iteration: " <> displayShow n
             loop ss (n + 1)
           ExitFailure ec -> logInfo "Failed to execuite compiled binary. Finished."
-  runSimpleApp (loop signals 1)
+  runSimpleApp $ do
+    proc "stack" ["build"] runProcess_
+    loop signals 1
