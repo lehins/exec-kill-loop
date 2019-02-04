@@ -21,7 +21,7 @@ main = do
   let cmd = "stack build"
   let loop (sig:ss) n = do
         proc "stack" ["clean", "--full"] runProcess_
-        proc "exec-kill-loop" [cmd, "-s", show sig, "--max-delay", show maxDelay] runProcess_
+        proc "../../../exec-kill-loop" [cmd, "-s", show sig, "--max-delay", show maxDelay] runProcess_
         -- finish if it ran successfully but there is no output file
         exitCode <- proc "stack" ["exec", "--", "stencil"] runProcess
         case exitCode of
