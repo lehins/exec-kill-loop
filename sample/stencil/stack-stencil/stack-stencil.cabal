@@ -1,0 +1,47 @@
+cabal-version: 1.12
+name:           stack-stencil
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/lehins/stack-stencil#readme>
+homepage:       https://github.com/lehins/stack-stencil#readme
+bug-reports:    https://github.com/lehins/stack-stencil/issues
+author:         Alexey Kuleshevich
+maintainer:     alexey@kuleshevi.ch
+copyright:      2018 Alexey Kuleshevich
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/lehins/stack-stencil
+
+library
+  exposed-modules:
+                  Sobel
+                , Average
+  other-modules:
+      Paths_stack_stencil
+  hs-source-dirs:
+      src
+  build-depends:
+                base >=4.7 && <5
+              , massiv
+              , data-default
+  default-language: Haskell2010
+
+executable stencil
+  main-is: stencil.hs
+  other-modules:
+      Paths_stack_stencil
+  hs-source-dirs:
+      app
+  ghc-options: -O2 -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+                base >=4.7 && <5
+              , stack-stencil
+              , massiv
+              , data-default
+  default-language: Haskell2010
