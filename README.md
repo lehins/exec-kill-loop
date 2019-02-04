@@ -13,7 +13,10 @@ Specifically, we've observed the following to happen:
 * executable files being written half-way, so they can start executing but then crash
 * users reporting downstream tooling bug reports that only a build directory wipe helped
 
-See stack issue [#4559 - Get rid of persistent build errors due to non-atomic file writes in GHC and stack](https://github.com/commercialhaskell/stack/issues/4559) for more work on this.
+Issues about this:
+
+* `stack` issue [#4559 - Get rid of persistent build errors due to non-atomic file writes in GHC and stack](https://github.com/commercialhaskell/stack/issues/4559) for more work on this.
+* GHC issue [#14533 - Make GHC more robust against PC crashes by using atomic writes](https://ghc.haskell.org/trac/ghc/ticket/14533)
 
 
 ## Usage
