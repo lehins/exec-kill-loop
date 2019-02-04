@@ -147,7 +147,7 @@ expectSignalExitCode sig =
         logError $
           ">>> # Expected to exit with a signal: " <> displayShow sigCode <> ", but died with: " <>
           displayShow exitCode
-        --liftIO $ exitWith exitStatus
+        liftIO $ exitWith exitStatus
     _ -> return ()
   where
     sigCode = negate (fromIntegral sig)
